@@ -1,7 +1,7 @@
 import os
 
-source_dir = "/mnt/c/Users/Ayoub/Desktop/il/0x05-python-exceptions"
-dest_dir = "/mnt/c/Users/Ayoub/Desktop/alx-higher_level_programming/0x05-python-exceptions"
+source_dir = "/mnt/c/Users/Ayoub/Desktop/il/0x06-python-classes"
+dest_dir = "/mnt/c/Users/Ayoub/Desktop/alx-higher_level_programming/0x06-python-classes"
 first_line = "#!/usr/bin/python3"
 # Ensure destination directory exists
 os.makedirs(dest_dir, exist_ok=True)
