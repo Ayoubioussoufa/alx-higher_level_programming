@@ -1,0 +1,25 @@
+Terminal Communication Program
+
+This program allows you to communicate between two terminal windows by sending messages from one terminal to another.
+
+Usage:
+./program_name <other_terminal_reference>
+
+Parameters:
+1. program_name: The name of the program executable.
+2. other_terminal_reference: The reference to the other terminal's device file.
+
+Example:
+./program_name /dev/tty1
+
+This example command will open communication with the terminal device /dev/tty1. You should replace "/dev/tt
+y1" with the appropriate reference to the other terminal you want to communicate with.
+
+Once the program is running, you can start typing messages. Press Enter to send each message to the other terminal.
+
+Note:
+- Make sure to run this program in one terminal and provide the reference to the other terminal as the command-line argument.
+- Ensure that you have the necessary permissions to access the specified terminal device.
+- To terminate the program, you can press Ctrl+C or close the terminal window.
+
+For more information or assistance, please refer to the documentation or contact the program developer.
