@@ -1,7 +1,7 @@
 import os
 
-source_dir = "/mnt/c/Users/Ayoub/Desktop/il/0x07-python-test_driven_development"
-dest_dir = "/mnt/c/Users/Ayoub/Desktop/alx-higher_level_programming/0x07-python-test_driven_development"
+source_dir = "/mnt/c/Users/Ayoub/Desktop/il/0x08-python-more_classes"
+dest_dir = "/mnt/c/Users/Ayoub/Desktop/alx-higher_level_programming/0x08-python-more_classes"
 first_line = "#!/usr/bin/python3"
 # Ensure destination directory exists
 os.makedirs(dest_dir, exist_ok=True)
